@@ -1,31 +1,84 @@
 html {
   font-family: "Times New Roman", Times, serif;
 }
-body {
-  border: 8px solid #000;
-  margin: 0;
-  height: 100vh;
-}
 
 a {
   color: #000;
 }
 
-h1 {
+p {
+  line-height: 2em;
+  margin-bottom: 1.5em;
+}
+
+strong {
+  color: #ab2537fa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.65em;
+  line-height: 1em;
+  margin-bottom: 2em;
+}
+
+h5 {
+  font-size: 1.25em;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+  color: #ab2537fa;
+  text-transform: uppercase;
+}
+
+h-name {
   font-size: 3em;
   line-height: 1.5em;
   margin-bottom: 1em;
 }
 
+header,
 section {
   display: block;
 }
+
+.inner_container {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 .inner_container {
   max-width: 80em;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 60em;
+}
+
+.border {
+  border-top: 1px solid #f0eeee;
+}
+
+.h-section {
+  padding-top: 6em;
   padding-bottom: 6em;
-  padding-left: 2em;
-  padding-right: 2em;
+}
+
+.r-section {
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 4em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+body {
+  border: 8px solid #000;
+  margin: 0;
 }
