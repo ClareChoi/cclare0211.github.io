@@ -88,6 +88,7 @@ body {
 }
 
 .card-img-top {
+  padding-top: 1 em;
   width: 100%;
   height: 25vw;
   object-fit: contain;
